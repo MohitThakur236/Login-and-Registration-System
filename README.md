@@ -37,12 +37,13 @@ During login, the program reads the stored credentials from data.txt and compare
 
 ## File Structure
 
+```text
 Login-and-Registration-System/
-│
 ├── Login_registration.cpp
 ├── data.txt
 ├── .gitignore
 └── README.md
+```
 
 
 ## Concepts Used:-
