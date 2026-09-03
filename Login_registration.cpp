@@ -34,7 +34,7 @@ bool login(string username, string password){
     return false;
 }
 bool validusername(string username){
-    if(username.length()<=3) return false;
+    if(username.length()<=5) return false;
     for(char ch: username){
         if(ch==' '){
             cout<<"Username cann't contains SPACE!!"<<endl;
@@ -125,7 +125,7 @@ int main(){
                     cin>>username;
                 }
                 else if(!validusername(username)){
-                    cout<<"Enter username: ";
+                    cout<<"Enter username with length Greater than 5: ";
                     cin>>username;
                 }
                 else break;
